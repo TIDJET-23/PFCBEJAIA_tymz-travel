@@ -93,7 +93,7 @@ if (isset($_POST["ajtvoy"])) {
             </div>
 
             <label>date depart</label><br>
-            <input type="text" name="dated" class="form-control" required id="date"><br>
+            <input type="text" name="dated" class="form-control" required id="date" placeholder="entre la date de depart"><br>
 
             <input type="text"  id="nbrj" name="nbrjours" placeholder="7 jours/ 6 nuit" required><br><br>
             
