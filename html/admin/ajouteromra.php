@@ -95,7 +95,7 @@ if (isset($_POST["ajtomra"])) {
             </div>
 
             <label>date depart</label><br>
-            <input type="text" name="dated" class="form-control" required id="date"><br>
+            <input type="text" name="dated" class="form-control" required id="date" placeholder="entre la date de depart"><br>
 
 
 
