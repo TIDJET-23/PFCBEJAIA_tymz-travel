@@ -1,0 +1,19 @@
+.phraseEronnee {
+    border-bottom: red solid 2px;
+}
+
+.phraseCorrecte {
+    border-bottom: green solid 2px;
+}
+
+.motdepassePetit {
+    background-color: rgba(255, 0, 0, 0.459);
+}
+
+.motdepassemoyen {
+    background-color: rgba(255, 166, 0, 0.486);
+}
+
+.motdepasseparfait {
+    background-color: rgba(3, 214, 3, 0.377);
+}

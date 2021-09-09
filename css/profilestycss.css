@@ -1,0 +1,166 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url("../image/bod.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#logo {
+    font-family: fantasy;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: -10px;
+}
+
+#logo::first-letter {
+    font-size: 40px;
+    margin-right: 3px;
+}
+
+.logo:visited {
+    color: black;
+}
+
+#lien1 {
+    margin-left: 50px;
+    margin-right: 10px;
+    background-color: rgb(30, 148, 148);
+    border-radius: 7px;
+    color: white;
+    text-align: center;
+}
+
+#lien1:hover {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+#lien2 {
+    color: white;
+    margin-right: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#lien2:hover {
+    color: rgb(30, 148, 148);
+    border-bottom: solid 2px rgb(30, 148, 148);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 25px;
+}
+
+#profil {
+    color: white;
+    margin-left: 30px;
+    margin-top: -4px;
+}
+
+#profil:hover {
+    color: gray;
+}
+
+#lien3 {
+    color: white;
+    height: 42px;
+    border-radius: 7px;
+    text-align: center;
+    border: solid 2px white;
+}
+
+#lien4 {
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+    border-radius: 7px;
+    height: 42px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#lien3:hover {
+    border: solid 2px white;
+    color: black;
+    background-color: white;
+}
+
+#lien4:hover {
+    background-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    #lien1 {
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+    }
+    #lien2 {
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-right: 40px;
+        text-align: center;
+    }
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+#pro {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.623);
+    border: solid 2px rgba(252, 252, 252, 0.096);
+    width: 400px;
+}
+
+#voypro {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+#voyprof {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.623);
+    border: solid 2px rgba(252, 252, 252, 0.096);
+}
+
+#validation {
+    background-color: rgba(3, 255, 45, 0.405);
+    backdrop-filter: blur(5px);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.623);
+    border: solid 2px rgba(3, 255, 45, 0.405);
+}
+
+.user-pic {
+    border-radius: 50%;
+}
+
+#btnmdf {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(184, 184, 184);
+}
+
+#btnmdf:hover {
+    background-color: rgb(185, 178, 178);
+}
+
+#btnmdf1 {
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(184, 184, 184);
+}
+
+#btnmdf1:hover {
+    background-color: rgb(185, 178, 178);
+}
