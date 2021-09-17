@@ -1,17 +1,17 @@
 # PFCBEJAIA_tymz-travel
 
 compte admin : 
-______________
+
 
 email : PFCadmin@gmail.com
 pass  : PFCadmin
 
-
-compte client :
 ______________
+compte client :
+
 
 email : PFCclient@gmail.com
 pass  : PFCclient
 
 ou tu peux inscrit sur le site
-
+______________
