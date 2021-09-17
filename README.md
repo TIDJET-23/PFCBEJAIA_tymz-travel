@@ -13,5 +13,5 @@ compte client :
 email : PFCclient@gmail.com
 pass  : PFCclient
 
-ou tu peux inscrit sur le site
+Ou vous pouvez inscrire sur le site
 ______________
